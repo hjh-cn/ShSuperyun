@@ -117,43 +117,43 @@ start_linux(){
     read num
     case $num in
     1)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/xncs.sh && chmod +x xncs.sh && bash xncs.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/xncs.sh && chmod +x xncs.sh && bash xncs.sh
         ;;
     2)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/bench.sh && chmod +x bench.sh && bash bench.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/bench.sh && chmod +x bench.sh && bash bench.sh
         ;;
     3)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/tools.sh && chmod +x tools.sh && bash tools.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/tools.sh && chmod +x tools.sh && bash tools.sh
         ;;
     4)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/swap.sh && chmod +x swap.sh && bash swap.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/swap.sh && chmod +x swap.sh && bash swap.sh
         ;;
     5)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/dns.sh && chmod +x dns.sh && bash dns.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/dns.sh && chmod +x dns.sh && bash dns.sh
         ;;
     6)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/check.sh && chmod +x check.sh && bash check.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/check.sh && chmod +x check.sh && bash check.sh
         ;;
     7)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/tcp.sh && chmod +x tcp.sh && bash tcp.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/tcp.sh && chmod +x tcp.sh && bash tcp.sh
         ;;
     8)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/net-install.sh && chmod a+x net-install.sh && bash net-install.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/net-install.sh && chmod a+x net-install.sh && bash net-install.sh
         ;;
     9)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/frps.sh && chmod +x frps.sh && bash frps.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/frps.sh && chmod +x frps.sh && bash frps.sh
         ;;
     10)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/frpc.sh && chmod +x frpc.sh && bash frpc.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/frpc.sh && chmod +x frpc.sh && bash frpc.sh
         ;;
     11)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/nezha.sh && chmod +x nezha.sh && bash nezha.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/nezha.sh && chmod +x nezha.sh && bash nezha.sh
         ;;
     12)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/status.sh && chmod +x status.sh && bash status.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/status.sh && chmod +x status.sh && bash status.sh
         ;;
     13)
-        ${download} https://d54nomvcoxyoh.cloudfront.net/dkzf.sh && chmod +x dkzf.sh && bash dkzf.sh
+        ${download} https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/dkzf.sh && chmod +x dkzf.sh && bash dkzf.sh
         ;;
     14)
         yum -y install wget;wget http://kangle.cccyun.cn/start;sh start
@@ -162,106 +162,106 @@ start_linux(){
         yum install -y wget;wget -q kos.f2k.pub -O kos && sh kos
         ;;
     16)
-        bash <(curl -Ls https://d54nomvcoxyoh.cloudfront.net/x-uiinstall.sh)
+        bash <(curl -Ls https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/x-uiinstall.sh)
         ;;
     17)
         echo -e "脚本已下架"
         ;;
     18)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/ssr.sh && chmod +x ssr.sh && bash ssr.sh
         ;;
     19)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
         ;;
     20) 
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/ssr_check.sh && chmod +x ssr_check.sh &&bash ssr_check.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/ssr_check.sh && chmod +x ssr_check.sh &&bash ssr_check.sh
         ;;
     21) 
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/ssrstatus.sh && chmod +x ssrstatus.sh && bash ssrstatus.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/ssrstatus.sh && chmod +x ssrstatus.sh && bash ssrstatus.sh
         ;;
     22) 
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/ssr_ip_check.sh && chmod +x ssr_ip_check.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/ssr_ip_check.sh && chmod +x ssr_ip_check.sh
         ;;
     23) 
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
         ;;
     24)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
         ;;
     25)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/aria2.sh && chmod +x aria2.sh && bash aria2.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/aria2.sh && chmod +x aria2.sh && bash aria2.sh
         ;;
     26)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/ocserv.sh && chmod +x ocserv.sh && bash ocserv.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/ocserv.sh && chmod +x ocserv.sh && bash ocserv.sh
         ;;
     27)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/Get_Out_Spam.sh && chmod +x Get_Out_Spam.sh && bash Get_Out_Spam.sh add
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/Get_Out_Spam.sh && chmod +x Get_Out_Spam.sh && bash Get_Out_Spam.sh add
         ;;
     28)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/brook.sh && chmod +x brook.sh && bash brook.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/brook.sh && chmod +x brook.sh && bash brook.sh
         ;;
     29)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/goflyway.sh && chmod +x goflyway.sh && bash goflyway.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/goflyway.sh && chmod +x goflyway.sh && bash goflyway.sh
         ;;
     30)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/cloudt.sh && chmod +x cloudt.sh && bash cloudt.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/cloudt.sh && chmod +x cloudt.sh && bash cloudt.sh
         ;;
     31)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/pserver.sh && chmod +x pserver.sh && bash pserver.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/pserver.sh && chmod +x pserver.sh && bash pserver.sh
         ;;
     32)
-        wget -P /root -N --no-check-certificate "https://d54nomvcoxyoh.cloudfront.net/linux_amd64_server.tar.gz" && tar -zxvf linux_amd64_server.tar.gz && ./nps install && nps start
+        wget -P /root -N --no-check-certificate "https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/linux_amd64_server.tar.gz" && tar -zxvf linux_amd64_server.tar.gz && ./nps install && nps start
         ;;
     33)
-        bash <(curl -s -L https://d54nomvcoxyoh.cloudfront.net/tcp2.sh)
+        bash <(curl -s -L https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/tcp2.sh)
         ;;
     34)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/tools2.sh && chmod +x tools2.sh && bash tools2.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/tools2.sh && chmod +x tools2.sh && bash tools2.sh
         ;;
     35)
-        bash <(curl -fsSL https://d54nomvcoxyoh.cloudfront.net/warp.sh) menu
+        bash <(curl -fsSL https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/warp.sh) menu
         ;;
     36)
-        bash <(curl -s -L https://d54nomvcoxyoh.cloudfront.net/V2Ray.sh)
+        bash <(curl -s -L https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/V2Ray.sh)
         ;;
     37)
-        bash <(curl -s -L https://d54nomvcoxyoh.cloudfront.net/mtproxy_go.sh)
+        bash <(curl -s -L https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/mtproxy_go.sh)
         ;;
     38)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
         ;;
     39)
-        bash <(curl -s -L https://d54nomvcoxyoh.cloudfront.net/superbench.sh)
+        bash <(curl -s -L https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/superbench.sh)
         ;;
     40)
-        wget -N --no-check-certificate https://d54nomvcoxyoh.cloudfront.net/huicheng && chmod +x huicheng
+        wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/huicheng && chmod +x huicheng
         ;;
     41)
-        bash <(curl -s -L https://d54nomvcoxyoh.cloudfront.net/dd-od.sh)
+        bash <(curl -s -L https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/dd-od.sh)
         ;;
     42)
-        bash <(curl -s -L https://d54nomvcoxyoh.cloudfront.net/dd-gd.sh)
+        bash <(curl -s -L https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/dd-gd.sh)
         ;;
     43)
-        bash -c "$(curl -fsSL https://d54nomvcoxyoh.cloudfront.net/xray_install.sh)"
+        bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/xray_install.sh)"
         ;;
     44)
-        bash <(curl -sSL "https://d54nomvcoxyoh.cloudfront.net/cf.sh")	
+        bash <(curl -sSL "https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/cf.sh")	
         ;;
     45)
-        bash <(curl -s -L https://d54nomvcoxyoh.cloudfront.net/superspeed.sh)
+        bash <(curl -s -L https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/superspeed.sh)
         ;;
     46)
-        bash <(curl -sSL https://d54nomvcoxyoh.cloudfront.net/DockerInstallation.sh)
+        bash <(curl -sSL https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/DockerInstallation.sh)
         ;;
     47)
-        bash <(wget --no-check-certificate -qO- 'https://d54nomvcoxyoh.cloudfront.net/xiandan.sh')
+        bash <(wget --no-check-certificate -qO- 'https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/xiandan.sh')
         ;;
     48)
-        bash <(curl -L -s https://d54nomvcoxyoh.cloudfront.net/x86.sh)
+        bash <(curl -L -s https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/x86.sh)
         ;;
     49)
-        bash <(curl -s -L https://d54nomvcoxyoh.cloudfront.net/l2tp.sh)
+        bash <(curl -s -L https://cdn.jsdelivr.net/gh/hjh-cn/ShSuperyun@linux%E8%84%9A%E6%9C%AC/l2tp.sh)
         ;;
     99)
         echo -e "\n${GreenBG}感谢使用！欢迎下次使用！${Font}\n" && exit
